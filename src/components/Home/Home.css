@@ -9,10 +9,14 @@
 
 .home__title {
   font-family: 'Pokemon Solid', sans-serif;
-  font-size: 80px;
-  margin: 20px 0;
+  font-size: 90px;
+  /* margin: 20px 0; */
+  margin-top: 0px;
   user-select:none;
   letter-spacing: 5px;
+  color: #ffcc01;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #3560ac;
 }
 
 .home__input {
