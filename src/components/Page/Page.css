@@ -1,0 +1,43 @@
+.page {
+  min-height: 100vh;
+  background-color: #202124;
+  color: #e8eaed;
+  display: flex;
+}
+
+.page__image {
+  width: 400px;
+  height: 400px;
+  margin: auto 40px;
+  margin-left: 80px;
+  z-index: 1;
+}
+
+.page__title {
+  font-size: 80px;
+  font-family: 'Pokemon Solid', sans-serif;
+  user-select: none;
+  letter-spacing: 5px;
+}
+
+.page__curve {
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #303134;
+  left: -50vh;
+}
+
+.page__ability {
+  background-color: #202124;
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.page__abilitiesContainer {
+  display: flex;
+}
